@@ -1,170 +1,108 @@
-# Sepehr Asgarian - Professional Portfolio Website
+# Sepehr Asgarian - Personal Website
 
-A modern, responsive portfolio website showcasing machine learning expertise, research publications, and professional experience.
+This repository contains the source code for my professional website, showcasing my work as a Machine Learning researcher and Data Scientist specializing in generative AI and healthcare applications.
 
-## 🚀 Features
+## About This Website
 
-- **Responsive Design**: Optimized for all devices (desktop, tablet, mobile)
-- **Modern Dark Theme**: Professional color scheme with blue accents
-- **Smooth Animations**: Scroll-triggered animations and smooth transitions
-- **Interactive Navigation**: Fixed navbar with smooth scrolling
-- **Contact Form**: Integrated contact form with email functionality
-- **Publication Showcase**: Dedicated section for research papers
-- **Project Portfolio**: Visual project cards with technology tags
-- **Skills Matrix**: Organized technical skills by category
+A clean, responsive personal website that highlights my professional journey, research contributions, and expertise in machine learning and artificial intelligence. The site provides visitors with a comprehensive overview of my academic background, industry experience, and technical publications.
 
-## 🛠️ Technologies Used
+## Professional Background
 
-- **HTML5**: Semantic markup structure
-- **CSS3**: Modern styling with flexbox/grid, animations, and responsive design
-- **JavaScript**: Interactive functionality and smooth user experience
-- **Font Awesome**: Professional icons
-- **Google Fonts**: Inter font family for clean typography
+- **Current Role**: Data Scientist at Klick Inc., a healthcare intelligence and technology company
+- **Education**: MSc Computer Science from Western University (CGPA: 4.0/4.0)
+- **Research Focus**: Generative AI, Large Language Models, and multimodal machine learning systems
+- **Publications**: Featured in top-tier venues including NeurIPS, AAAI, and IEEE Transactions
 
-## 📁 File Structure
+## Key Features
+
+### Technical Implementation
+- **Responsive Design**: Optimized for desktop, tablet, and mobile viewing
+- **Theme System**: Dark/light mode toggle with smooth transitions
+- **Interactive Elements**: Clickable publication images with professional lightbox view
+- **Modern Architecture**: Built with semantic HTML5, modern CSS3, and vanilla JavaScript
+- **Performance Optimized**: Fast loading with no external framework dependencies
+
+### Content Highlights
+- **Research Publications**: Interactive showcase of academic papers with visual previews
+- **Professional Experience**: Current role and technical expertise
+- **Academic Background**: Educational achievements and research supervision details
+- **Personal Touch**: Guitar performance video showcasing creative interests
+
+## Technical Stack
+
+- **HTML5**: Semantic markup structure with accessibility considerations
+- **CSS3**: Custom properties, flexbox/grid layouts, smooth animations
+- **JavaScript**: Theme switching, lightbox functionality, and interactive features
+- **Font Awesome**: Professional iconography
+- **Google Fonts**: Inter font family for clean, modern typography
+
+## Research Areas
+
+My work spans several cutting-edge areas in machine learning:
+
+- **Generative AI Technologies**: Large Language Models and their applications
+- **Multimodal Systems**: Healthcare, multimedia, and enterprise solutions
+- **Domain Adaptation**: Cross-domain generalization techniques
+- **Brain-Computer Interfaces**: Neural signal processing and classification
+- **Production ML Systems**: Scalable AI solutions with business impact
+
+## Academic Contributions
+
+### Recent Publications
+- **ACM Multimedia 2025**: Layer-Informed Memorability Prediction (Accepted)
+- **AAAI 2025**: MindMem - Multimodal Advertisement Memorability
+- **IEEE Transactions 2024**: Multi-view Contrastive Learning for BCIs
+- **NeurIPS 2023**: LOVENet for Drug Repurposing
+
+### Research Supervision
+- **Prof. Boyu Wang** (Western University)
+- **Prof. Yalda Mohsenzadeh** (Western University, Vector Institute)
+
+## Website Structure
 
 ```
 Seps_website/
-├── index.html          # Main HTML file
-├── styles.css          # CSS styling
-├── script.js           # JavaScript functionality
-└── README.md           # Project documentation
+├── index.html          # Main website file
+├── styles.css          # Styling and responsive design
+├── script.js           # Interactive functionality
+├── Images/             # Publication figures and media
+│   ├── Layer.png       # ACM Multimedia paper figure
+│   ├── Mindmem.png     # AAAI paper visualization
+│   ├── Multiview.png   # IEEE Transactions figure
+│   ├── sep.mp4         # Guitar performance video
+│   └── ...             # Additional publication images
+└── README.md           # This documentation
 ```
 
-## 🎨 Design Features
+## Live Website
 
-### Color Palette
-- **Primary Background**: #0f172a (Dark Navy)
-- **Secondary Background**: #1e293b (Slate)
-- **Accent Color**: #60a5fa (Blue)
-- **Text Primary**: #e2e8f0 (Light Gray)
-- **Text Secondary**: #cbd5e1 (Gray)
+🌐 **Visit**: [sepehrasgarian.github.io](https://sepehrasgarian.github.io)
 
-### Sections
-1. **Hero Section**: Introduction with professional photo placeholder
-2. **About**: Background, education, and key statistics
-3. **Experience**: Timeline-based work experience
-4. **Projects**: Grid layout showcasing key projects
-5. **Publications**: Research papers with links
-6. **Skills**: Technical expertise organized by category
-7. **Contact**: Contact information and form
+The website is hosted on GitHub Pages and automatically updates with repository changes.
 
-## 🖼️ Image Placeholders
+## Design Philosophy
 
-The website includes placeholders for the following images:
-- Professional headshot (Hero section)
-- AI/Brain visualization (About section)
-- Project screenshots (6 project cards)
+The website balances professional presentation with personal authenticity:
+- **Clean Typography**: Focus on readability and professional appearance
+- **Visual Hierarchy**: Clear section organization with consistent spacing
+- **Academic Standards**: Proper citation format and publication presentation
+- **Personal Elements**: Guitar video and approachable writing style
+- **Accessibility**: Semantic HTML and keyboard navigation support
 
-### Recommended Image Specifications:
-- **Profile Photo**: 350x350px, professional headshot
-- **About Image**: 350x350px, AI/tech related visualization
-- **Project Images**: 400x200px, project screenshots or relevant graphics
+## Contact & Collaboration
 
-## 📱 Responsive Breakpoints
+For professional inquiries, research collaboration, or industry opportunities:
 
-- **Desktop**: 1200px and above
-- **Tablet**: 768px - 1199px
-- **Mobile**: 320px - 767px
+- 📧 **Email**: sepehr.asgarian@gmail.com
+- 💼 **LinkedIn**: [linkedin.com/in/sepehr-asgarian](https://www.linkedin.com/in/sepehr-asgarian/)
+- 👨‍💻 **GitHub**: [github.com/sepehrasgarian](https://github.com/sepehrasgarian)
 
-## ⚡ Performance Features
+## Updates & Maintenance
 
-- Optimized CSS with efficient selectors
-- Smooth scroll behavior
-- Loading animations
-- Hover effects and transitions
-- Mobile-first responsive design
-
-## 🔧 Customization
-
-### Adding Your Images
-1. Replace image placeholders in the `index.html` file
-2. Update the `src` attributes with your image paths
-3. Maintain the recommended dimensions for best results
-
-### Updating Content
-1. **Personal Information**: Update contact details in the contact section
-2. **Experience**: Modify the timeline items in the experience section
-3. **Projects**: Update project cards with your own projects
-4. **Publications**: Replace with your research papers and links
-5. **Skills**: Adjust skill categories and tags to match your expertise
-
-### Color Scheme
-To change the color scheme, update the CSS custom properties in `styles.css`:
-```css
-:root {
-  --primary-bg: #0f172a;
-  --secondary-bg: #1e293b;
-  --accent-color: #60a5fa;
-  --text-primary: #e2e8f0;
-  --text-secondary: #cbd5e1;
-}
-```
-
-## 🚀 Deployment
-
-### GitHub Pages
-1. Push your code to a GitHub repository
-2. Go to repository Settings > Pages
-3. Select source branch (usually `main` or `master`)
-4. Your site will be available at `https://yourusername.github.io/repository-name`
-
-### Netlify
-1. Drag and drop your project folder to netlify.com
-2. Your site will be deployed instantly with a random URL
-3. You can customize the domain name in settings
-
-### Vercel
-1. Connect your GitHub repository to Vercel
-2. Deploy automatically with each push
-3. Custom domain configuration available
-
-## 📞 Contact Integration
-
-The contact form is configured to open the user's default email client with pre-filled information. For advanced form handling, consider integrating:
-- Formspree
-- Netlify Forms
-- EmailJS
-
-## 🔗 Social Links
-
-Update the social media links in the HTML:
-- GitHub: Replace with your GitHub profile
-- LinkedIn: Replace with your LinkedIn profile  
-- Google Scholar: Replace with your Scholar profile
-- Email: Update with your email address
-
-## 📄 Resume/CV
-
-Consider adding a downloadable PDF version of your resume:
-1. Add a PDF file to your project
-2. Link to it in the About or Contact section
-3. Use: `<a href="resume.pdf" download>Download Resume</a>`
-
-## 🎯 SEO Optimization
-
-The website includes basic SEO optimization:
-- Semantic HTML structure
-- Meta viewport tag for mobile
-- Descriptive page title
-- Alt text placeholders for images
-
-For enhanced SEO, consider adding:
-- Meta description
-- Open Graph tags
-- Schema markup
-- XML sitemap
-
-## 💡 Future Enhancements
-
-Potential improvements:
-- Blog section for technical articles
-- Dark/light theme toggle
-- Language switcher
-- Advanced animations with GSAP
-- PWA functionality
-- Performance monitoring
+This website is actively maintained to reflect current research and professional developments. Major updates are batched to minimize repository activity while keeping content current.
 
 ---
 
-**Built with ❤️ for showcasing machine learning expertise**
+*Built with modern web technologies to showcase expertise in machine learning and artificial intelligence. This repository represents both technical capabilities and professional identity in the ML research community.*
+
+© 2025 Sepehr Asgarian. All rights reserved.
