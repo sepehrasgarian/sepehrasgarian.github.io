@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sepehr Asgarian - Machine Learning Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-left">
+                    <h1 class="name">Sepehr Asgarian</h1>
+                    <p class="title">Data Scientist at Klick Inc.</p>
+                </div>
+                <div class="header-right">
+                    <div class="header-controls">
+                        <div class="social-links">
+                            <a href="https://github.com/sepehrasgarian" target="_blank" class="social-icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/sepehr-asgarian/" target="_blank" class="social-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="theme-toggle">
+                            <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark mode">
+                                <i class="fas fa-moon" id="theme-icon"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <p class="email">Email: <a href="mailto:sepehr.asgarian@gmail.com">sepehr.asgarian@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="section-divider"></div>
+            <div class="about-content">
+                <div class="profile-image">
+                    <img src="Images/Personal_image.jpeg" alt="Sepehr Asgarian" class="profile-photo">
+                </div>
+                <div class="about-text">
+                    <p>
+                        I am Sepehr Asgarian, a Machine Learning researcher specializing in the development and 
+                        optimization of Large Language Models and generative AI technologies. Currently, I work as a 
+                        Data Scientist at Klick Inc., a healthcare intelligence and technology company, where I develop and deploy 
+                        AI-driven solutions for pharmaceutical and healthcare applications. My role involves building 
+                        predictive models, implementing machine learning pipelines, and leveraging generative AI technologies 
+                        to solve complex healthcare challenges.
+                    </p>
+                    <p>
+                        I earned my MSc in Computer Science at Western University under the supervision of 
+                        <a href="https://sites.google.com/site/borriewang/" class="supervisor-link" target="_blank">Professor Boyu Wang</a> and 
+                        <a href="https://www.uwo.ca/bmi/investigators/yalda-mohsenzadeh.html" class="supervisor-link" target="_blank">Professor Yalda Mohsenzadeh</a>, specializing in multiview adversarial contrastive learning and domain adaptation for brain-computer interfaces. 
+                        My research pioneered novel deep learning architectures and contrastive learning frameworks to solve cross-domain 
+                        generalization challenges in neural signal processing.
+                    </p>
+                    <p>
+                        My expertise spans generative AI, large language models, and multimodal machine learning systems 
+                        with applications across healthcare, multimedia, and enterprise solutions. I have extensive experience 
+                        building production-ready AI systems, implementing advanced ML pipelines, and deploying models that drive 
+                        business value. My work has been published in top-tier academic conferences and journals including 
+                        NeurIPS, AAAI, and IEEE Transactions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Publications Section -->
+    <section class="publications">
+        <div class="container">
+            <h2 class="section-title">Selected Publications</h2>
+            <div class="section-divider"></div>
+            
+            <div class="publication">
+                <div class="publication-image">
+                    <img src="Images/Layer.png" alt="Layer-Informed Paper" class="publication-img clickable-image" onclick="openLightbox(this)">
+                </div>
+                <div class="publication-content">
+                    <h3 class="publication-title">Layer-Informed Memorability Prediction and Reinforcement-Guided Multimedia Content Adjustment</h3>
+                    <p class="publication-authors"><strong>Sepehr Asgarian</strong>, Jouhyun Jeon</p>
+                    <p class="publication-venue"><em>In ACM Multimedia 2025 on Multimedia Content Generation and Evaluation</em>, 2025</p>
+                    <div class="publication-links">
+                        <span class="publication-status">Accepted</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="publication">
+                <div class="publication-image">
+                    <img src="Images/Mindmem.png" alt="MindMem Paper" class="publication-img clickable-image" onclick="openLightbox(this)">
+                </div>
+                <div class="publication-content">
+                    <h3 class="publication-title">MindMem: Multimodal for Predicting Advertisement Memorability Using LLMs and Deep Learning</h3>
+                    <p class="publication-authors"><strong>Sepehr Asgarian</strong>, Qayam Jetha, Jouhyun Jeon</p>
+                    <p class="publication-venue"><em>In AAAI 2025 on Economics of Modern ML: Markets, Incentives, and Generative AI</em>, 2025</p>
+                    <div class="publication-links">
+                        <a href="https://arxiv.org/abs/2502.18371" target="_blank" class="publication-link">ABS</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="publication">
+                <div class="publication-image">
+                    <img src="Images/Multiview.png" alt="Multiview Paper" class="publication-img clickable-image" onclick="openLightbox(this)">
+                </div>
+                <div class="publication-content">
+                    <h3 class="publication-title">Multi-view Contrastive Learning for Unsupervised Domain Adaptation in Brain-Computer Interfaces</h3>
+                    <p class="publication-authors"><strong>Sepehr Asgarian</strong>, Ze Wang, Feng Wan, Chi Man Wong, Feng Liu, Yalda Mohsenzadeh, and <a href="https://ieeexplore.ieee.org/document/10436703" target="_blank">2 more authors</a></p>
+                    <p class="publication-venue"><em>In IEEE Transactions on Instrumentation and Measurement</em>, 2024</p>
+                    <div class="publication-links">
+                        <a href="https://ieeexplore.ieee.org/document/10436703" target="_blank" class="publication-link">ABS</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="publication">
+                <div class="publication-image">
+                    <img src="Images/All_you_need_love.png" alt="LOVENet Paper" class="publication-img clickable-image" onclick="openLightbox(this)">
+                </div>
+                <div class="publication-content">
+                    <h3 class="publication-title">All You Need Is LOVE: Large Optimized Vector Embeddings Network for Drug Repurposing</h3>
+                    <p class="publication-authors"><strong>Sepehr Asgarian</strong>, Sina Akbarian, Jouhyun Jeon</p>
+                    <p class="publication-venue"><em>In NeurIPS 2023 on New Frontiers of AI for Drug Discovery and Development</em>, Dec 2023</p>
+                    <div class="publication-links">
+                        <a href="https://www.researchgate.net/publication/376988584_All_You_Need_is_LOVE_Large_Optimized_Vector_Embeddings_Network_for_Drug_Repurposing" target="_blank" class="publication-link">ABS</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="publication">
+                <div class="publication-image">
+                    <img src="Images/Stock_prediction.png" alt="Stock Prediction Paper" class="publication-img clickable-image" onclick="openLightbox(this)">
+                </div>
+                <div class="publication-content">
+                    <h3 class="publication-title">Stock Prediction Using Generative Adversarial Network (GAN) & Sentiment Analysis</h3>
+                    <p class="publication-authors"><strong>Sepehr Asgarian</strong>, Ramin Ghasemi, Saeedeh Momtazi</p>
+                    <p class="publication-venue"><em>In Concurrency and Computation: Practice and Experience</em>, 2022</p>
+                    <div class="publication-links">
+                        <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/cpe.7467" target="_blank" class="publication-link">ABS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="section-divider"></div>
+            
+            <div class="education-item">
+                <div class="education-header">
+                    <h3>Western University</h3>
+                    <p class="education-period">2021 - 2023</p>
+                </div>
+                <p class="education-degree">MSc Computer Science, Specialization in Machine Learning</p>
+                <p class="education-description">
+                    Focused on advanced machine learning, deep learning, computer vision, and statistical learning theory. 
+                    Thesis research involved developing novel neural network architectures for brain-computer interface applications 
+                    under the supervision of <a href="https://sites.google.com/site/borriewang/" target="_blank">Prof. Boyu Wang</a>. 
+                    <strong>CGPA: 4.0/4.0</strong>
+                </p>
+            </div>
+
+            <div class="education-item">
+                <div class="education-header">
+                    <h3>Amirkabir University of Technology</h3>
+                    <p class="education-period">2016 - 2021</p>
+                </div>
+                <p class="education-degree">BSc Computer Engineering</p>
+                <p class="education-description">
+                    Comprehensive foundation in computer engineering including algorithms, data structures, software engineering, 
+                    database systems, and machine learning fundamentals. Specialized projects in deep learning applications 
+                    for anomaly detection and natural language processing. <strong>CGPA: 3.56/4.0</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- A Little More About Me Section -->
+    <section class="more-about">
+        <div class="container">
+            <h2 class="section-title">A Little More About Me</h2>
+            <div class="section-divider"></div>
+            
+            <p>
+                Beyond my passion for Machine Learning and AI research, I'm an avid guitarist who has been playing for nearly 12 years. 
+                Music serves as my creative outlet and helps me think differently about problem-solving. Whether I'm working through 
+                a complex algorithm or learning a new song, I find that both coding and guitar playing require patience, practice, 
+                and attention to detail.
+            </p>
+            
+            <p>
+                When I'm not immersed in code or research papers, you'll often find me with my guitar, exploring different genres 
+                and techniques. I believe that having diverse interests outside of work not only keeps life interesting but also 
+                brings fresh perspectives to my professional endeavors.
+            </p>
+            
+            <div class="about-video">
+                <video controls class="guitar-video">
+                    <source src="Images/sep.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Sepehr Asgarian. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Image Lightbox -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <div class="lightbox-content" onclick="event.stopPropagation()">
+            <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+            <img id="lightbox-image" src="" alt="">
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
