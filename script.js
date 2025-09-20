@@ -137,37 +137,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Theme Toggle Functionality
-    const themeToggle = document.getElementById('theme-toggle');
-    const themeIcon = document.getElementById('theme-icon');
-    const html = document.documentElement;
-
-    // Check for saved theme preference or default to 'light'
-    const currentTheme = localStorage.getItem('theme') || 'light';
-    html.setAttribute('data-theme', currentTheme);
-    updateThemeIcon(currentTheme);
-
-    themeToggle.addEventListener('click', function() {
-        const currentTheme = html.getAttribute('data-theme');
-        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-        
-        html.setAttribute('data-theme', newTheme);
-        localStorage.setItem('theme', newTheme);
-        updateThemeIcon(newTheme);
-        
-        // Show notification
-        showNotification(`Switched to ${newTheme} mode`);
-    });
-
-    function updateThemeIcon(theme) {
-        if (theme === 'dark') {
-            themeIcon.className = 'fas fa-sun';
-            themeToggle.setAttribute('aria-label', 'Switch to light mode');
-        } else {
-            themeIcon.className = 'fas fa-moon';
-            themeToggle.setAttribute('aria-label', 'Switch to dark mode');
-        }
-    }
 
     // Image Lightbox Functionality
     window.openLightbox = function(imgElement) {
