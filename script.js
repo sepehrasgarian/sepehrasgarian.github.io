@@ -80,41 +80,17 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 3000);
     }
 
-    // Add fade-in animation to sections
-    const sections = document.querySelectorAll('section');
-    
-    function checkSections() {
-        sections.forEach(section => {
-            const rect = section.getBoundingClientRect();
-            const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
-            
-            if (isVisible && !section.classList.contains('visible')) {
-                section.classList.add('visible');
-                section.style.opacity = '1';
-                section.style.transform = 'translateY(0)';
-            }
-        });
-    }
-
-    // Initialize sections with fade-in styles
-    sections.forEach(section => {
-        section.style.opacity = '0';
-        section.style.transform = 'translateY(20px)';
-        section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-    });
-
-    // Check sections on scroll and load
-    window.addEventListener('scroll', checkSections);
-    checkSections(); // Run once on load
-
-    // Simple loading animation
+    // Professional loading - no fade animations
     window.addEventListener('load', function() {
-        document.body.style.opacity = '0';
-        document.body.style.transition = 'opacity 0.3s ease';
+        // Ensure everything is visible immediately
+        document.body.style.opacity = '1';
         
-        setTimeout(() => {
-            document.body.style.opacity = '1';
-        }, 100);
+        // Remove any potential loading states
+        const sections = document.querySelectorAll('section');
+        sections.forEach(section => {
+            section.style.opacity = '1';
+            section.style.transform = 'none';
+        });
     });
 
     // Add hover effects to publication links
@@ -149,22 +125,15 @@ document.addEventListener('DOMContentLoaded', function() {
         lightboxCaption.textContent = imgElement.alt;
         
         lightbox.style.display = 'block';
+        lightbox.style.opacity = '1';
         document.body.style.overflow = 'hidden'; // Prevent background scrolling
-        
-        // Add fade-in animation
-        setTimeout(() => {
-            lightbox.style.opacity = '1';
-        }, 10);
     };
 
     window.closeLightbox = function() {
         const lightbox = document.getElementById('lightbox');
+        lightbox.style.display = 'none';
         lightbox.style.opacity = '0';
-        
-        setTimeout(() => {
-            lightbox.style.display = 'none';
-            document.body.style.overflow = 'auto'; // Restore scrolling
-        }, 300);
+        document.body.style.overflow = 'auto'; // Restore scrolling
     };
 
     // Close lightbox with Escape key
