@@ -118,16 +118,31 @@ section {
 }
 
 /* About Section */
+.about {
+    transition: none !important;
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+}
+
 .about-content {
     display: grid;
     grid-template-columns: 200px 1fr;
     gap: 3rem;
     align-items: flex-start;
+    transition: none !important;
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
 }
 
 .profile-image {
     display: flex;
     justify-content: center;
+    transition: none !important;
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
 }
 
 .image-placeholder {
@@ -150,6 +165,10 @@ section {
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #eee;
+    transition: none !important;
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
 }
 
 .project-img {
