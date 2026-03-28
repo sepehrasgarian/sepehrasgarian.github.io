@@ -407,6 +407,15 @@ section {
     color: #333;
     margin-bottom: 0.8rem;
     line-height: 1.4;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.project-logo {
+    height: 32px;
+    width: auto;
+    vertical-align: middle;
 }
 
 .project-link {
@@ -425,6 +434,23 @@ section {
     margin-bottom: 1rem;
     line-height: 1.7;
     text-align: justify;
+}
+
+.project-features {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    font-style: italic;
+    padding: 0.8rem;
+    background: #f8f9fa;
+    border-radius: 4px;
+    border-left: 3px solid #333;
+}
+
+.project-features strong {
+    color: #333;
+    font-style: normal;
 }
 
 .project-tech {
@@ -454,6 +480,24 @@ section {
 
 .project-button:hover {
     background: #555;
+}
+
+.project-button-secondary {
+    background: transparent;
+    color: #333;
+    padding: 8px 16px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.project-button-secondary:hover {
+    background: #333;
+    color: white;
 }
 
 .project-img {
