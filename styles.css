@@ -385,6 +385,92 @@ section {
     display: inline-block;
 }
 
+/* Projects Section */
+.project {
+    display: flex;
+    gap: 2.5rem;
+    margin-bottom: 3rem;
+    align-items: flex-start;
+}
+
+.project-image {
+    flex-shrink: 0;
+}
+
+.project-content {
+    flex: 1;
+}
+
+.project-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.8rem;
+    line-height: 1.4;
+}
+
+.project-link {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.project-link:hover {
+    color: #0066cc;
+}
+
+.project-description {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 1rem;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.project-links {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.project-button {
+    background: #333;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.project-button:hover {
+    background: #555;
+}
+
+.project-img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    background: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-img:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
 /* Education Section */
 .education-item {
     margin-bottom: 2.5rem;
@@ -516,6 +602,11 @@ section {
 
     .project-content {
         grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .project {
+        flex-direction: column;
         gap: 1.5rem;
     }
 
