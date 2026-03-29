@@ -407,15 +407,11 @@ section {
     color: #333;
     margin-bottom: 0.8rem;
     line-height: 1.4;
-    display: flex;
-    align-items: center;
-    gap: 0.8rem;
 }
 
-.project-logo {
-    height: 32px;
-    width: auto;
-    vertical-align: middle;
+.project-icon {
+    font-size: 1.2rem;
+    margin-right: 0.3rem;
 }
 
 .project-link {
