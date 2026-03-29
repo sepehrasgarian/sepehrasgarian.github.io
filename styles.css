@@ -431,26 +431,9 @@ section {
 .project-description {
     font-size: 0.95rem;
     color: #555;
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
     line-height: 1.7;
     text-align: justify;
-}
-
-.project-features {
-    font-size: 0.9rem;
-    color: #666;
-    margin-bottom: 1rem;
-    line-height: 1.6;
-    font-style: italic;
-    padding: 0.8rem;
-    background: #f8f9fa;
-    border-radius: 4px;
-    border-left: 3px solid #333;
-}
-
-.project-features strong {
-    color: #333;
-    font-style: normal;
 }
 
 .project-tech {
