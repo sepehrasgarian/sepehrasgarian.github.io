@@ -404,14 +404,20 @@ section {
 .project-title {
     font-size: 1.3rem;
     font-weight: 600;
-    color: #333;
     margin-bottom: 0.8rem;
     line-height: 1.4;
 }
 
-.project-icon {
-    font-size: 1.2rem;
-    margin-right: 0.3rem;
+.project-title a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.project-logo {
+    height: 28px;
+    width: auto;
+    display: inline-block;
 }
 
 .project-link {
@@ -421,7 +427,7 @@ section {
 }
 
 .project-link:hover {
-    color: #0066cc;
+    color: #F97316;
 }
 
 .project-description {
@@ -487,6 +493,7 @@ section {
     border: 1px solid #eee;
     background: white;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
 .project-img:hover {
